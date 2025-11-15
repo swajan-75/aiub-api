@@ -11,4 +11,8 @@ export class NoticeService {
     async getNotices(count :number){
        return await this.scraperService.get_notices(1,count);
     }
+
+    async get_faculties(){
+        return await this.scraperService.get_all_faculties();
+    }
 }
