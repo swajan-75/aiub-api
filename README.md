@@ -1,3 +1,4 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 #  AIUB Public API (Unofficial)
 A modern, open-source REST API providing **publicly available JSON data** from 
 **American International University–Bangladesh (AIUB)**. Includes **faculty details, departments, designations, and university notices**. 
