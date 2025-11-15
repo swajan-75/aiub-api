@@ -24,13 +24,6 @@ This project does **not** store or expose any private, sensitive, or restricted 
 
 ---
 
-## 📘 Use Cases 
-- Research tools  
-- Mobile or Web apps  
-- Batch processing or automation scripts  
-
----
-
 ## 🏗 Tech Stack
 - **NestJS** 
 - REST API  
