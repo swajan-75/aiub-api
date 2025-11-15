@@ -35,8 +35,29 @@ This project does **not** store or expose any private, sensitive, or restricted 
 
 ---
 
-## 📡 API Endpoints (Example)
+## 📡 API Endpoints
 
+### 📝 Notice API
+
+| Method | Endpoint        | Parameters                    | Description |
+|--------|----------------|-------------------------------|-------------|
+| GET    | `/notice/:size` | `size` (optional, number)     | Returns the latest notices. Default is 10 notices. |
+
+---
+
+### 👨‍🏫 Faculty API
+
+| Method | Endpoint       | Parameters | Description |
+|--------|----------------|------------|-------------|
+| GET    | `/faculty/all` | —          | Returns all faculty data from AIUB, sorted by name. |
+
+---
+
+### 🔹 Notes
+- Parameters in **`:`** format are path variables.  
+- All responses are returned in **JSON format**.
+
+### JSON Formates 
 ### 📝 Notice API (`/notice/:size`)
 
 ```json
@@ -85,5 +106,8 @@ This project does **not** store or expose any private, sensitive, or restricted 
     }
   ]
 }
+```
+
+
 
 
