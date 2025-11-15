@@ -3,6 +3,13 @@ A modern, open-source API that provides **publicly available and non-sensitive**
 Built for developers, students, and automation tools that need structured AIUB data in a simple, reliable format.
 
 ---
+## 🌐 Official Reference  
+All data used in this API is collected from publicly accessible sources on the official AIUB website:  
+🔗 **https://www.aiub.edu**
+
+This project does **not** store or expose any private, sensitive, or restricted information.
+
+---
 
 ## ✨ Features
 - 🔓 **Public & Non-Sensitive Data Only**  
