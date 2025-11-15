@@ -32,18 +32,14 @@ This project does **not** store or expose any private, sensitive, or restricted 
 ---
 
 ## 🏗 Tech Stack
-- **Node.js / NestJS** (edit if different)  
+- **NestJS** 
 - REST API  
-- TypeScript  
-- CORS-enabled  
+- TypeScript
+- axios 
 
 ---
 
 ## 📡 API Endpoints (Example)
-> Update these with your actual routes.
+GET /notice/:size                → Get recent notices (default: 10) <br>
+GET /faculty/all                 → Get all faculty information
 
-```http
-GET /api/faculty
-GET /api/department
-GET /api/employee/:id
-GET /api/search?name=...
